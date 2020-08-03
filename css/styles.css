@@ -110,6 +110,7 @@ address {
 ol,
 ul,
 dl {
+  color: white;
   margin-top: 0;
   margin-bottom: 1rem;
 }
