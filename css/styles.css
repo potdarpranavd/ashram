@@ -4034,6 +4034,7 @@ input[type=button].btn-block {
 }
 
 .navbar-collapse {
+  font-size: small;
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;

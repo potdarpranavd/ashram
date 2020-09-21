@@ -14,8 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-		
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+        
     </head>
     <body id="page-top" style="background-color:#2a2a2a;">
         <!-- Navigation-->
@@ -32,7 +32,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/branch_predictor.html">Branch Predictor</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/cache_simulator.html">Cache Simulator</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/arm_with_qemu.html">ARM with QEMU </a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/arm_trustzone.html">Secure Encryption using Hardware Isolation (ARM TrustZone)</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/arm_trustzone.html">Secure Encryption using Hardware Isolation</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/lps.html">Linear Power Supply</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/bidirectional_converter.html">Bidirectional Converter</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://inykt.xyz/smps.html">Switch-Mode Power Supply</a></li>
@@ -45,28 +45,20 @@
         <div class="container-fluid p-0">
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Modified xv6 kernel</h2>
+                    <h2 class="mb-5">Linear Power Supply</h2>
                         <div class="social-icons">
-                            <a class="social-icon" href="https://github.com/s0m3OnE47/xv6-riscv" target="_blank"><i class="fab fa-github"></i></a>
+                            
                         </div>        
-                        <p> </p>
-                    
                         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div class="flex-grow-1">
                             <!--<h3 class="mb-0">Senior Web Developer</h3>-->
                                 <div class="subheading mb-3" id="about" > <a>About</a>  </div>
-                                <p></p>
-                                <ul>
-                                    <li>Utilities</li>
-                                    <li>Lazy Allocation</li>
-                                    <li>Copy-on-Write</li>
-                                    <li>Uthread</li>
-                                    <li>Alarm</li>
-                                    <li>Lock</li>
-                                    <li>File System</li>
-                                    <li>Network Driver</li>
-                                </ul> 
-                                <p></p>
+                                <p>Designed linear power suppy to power different data acquisition systems and servo motors. Since most servo motors in my application used max 1.5A current at 5V, that circuit had fixed 5V, 2A with short-circuit protection. Some applications had servo motors as well as sensors attached to voltage source, so over-voltage protection was added to this circuit. In this case, the input was 230V AC mains.</p>
+
+                                <p>In case of powering DC motors, a current booster circuit was also introducted for higher current requirements(upto 20A). In this case the input was 12V lithum ion battery.</p>
+
+                                <p>I also designed battery charging circuit using linear power supply with current limiting resistor.</p>
+
                             </div>
                         </div>
                 </div>
