@@ -1,3 +1,0 @@
-# inykt.xyz Profile
-
-

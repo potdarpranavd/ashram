@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-ExtraLight.woff2') format('woff2'),
+        url('Newsreader-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-Light.woff2') format('woff2'),
+        url('Newsreader-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-Regular.woff2') format('woff2'),
+        url('Newsreader-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-Medium.woff2') format('woff2'),
+        url('Newsreader-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-ExtraBold.woff2') format('woff2'),
+        url('Newsreader-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-Bold.woff2') format('woff2'),
+        url('Newsreader-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-SemiBold.woff2') format('woff2'),
+        url('Newsreader-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-Italic.woff2') format('woff2'),
+        url('Newsreader-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-ExtraLightItalic.woff2') format('woff2'),
+        url('Newsreader-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-MediumItalic.woff2') format('woff2'),
+        url('Newsreader-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-ExtraBoldItalic.woff2') format('woff2'),
+        url('Newsreader-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-SemiBoldItalic.woff2') format('woff2'),
+        url('Newsreader-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-BoldItalic.woff2') format('woff2'),
+        url('Newsreader-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('Newsreader-LightItalic.woff2') format('woff2'),
+        url('Newsreader-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
