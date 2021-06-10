@@ -91,11 +91,11 @@ a {
   height: 100%;
   margin-bottom: 100px;
   position: absolute;
-  right: -25%;
+  right: -45%;
   font-size: 1em;
-  text-align: right;
-  top: 6rem;
-  width: 125px;
+  text-align: left;
+  top: 1.125rem;
+  width: 225px;
   z-index: 1; }
   .sidenav2 a {
     background: #fafae6;
