@@ -1,4 +1,8 @@
-Write about
-Rant about Bankers -> obese websites
-Why privacy? -> obese websites
-Browser Extensions -> obese websites
+/*
+	Topic -> [Linking to this article]
+
+ */
+Write about :
+	Rant about Bankers -> obese websites
+	Why privacy? -> obese websites
+	Browser Extensions -> obese websites
